@@ -1,0 +1,249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22F89E0C112FC63F00717FFE /* smslib.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F89E00112FC63F00717FFE /* smslib.m */; };
+		22F89E1E112FC79A00717FFE /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F89E1D112FC79A00717FFE /* CoreServices.framework */; };
+		22F89E44112FCA4C00717FFE /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F89E43112FCA4C00717FFE /* IOKit.framework */; };
+		22F89E4B112FCA6200717FFE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F89E4A112FCA6200717FFE /* Cocoa.framework */; };
+		8DD76F770486A8DE00D96B5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.m */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F7B0486A8DE00D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22F89DE1112FC55A00717FFE /* CGSPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSPrivate.h; sourceTree = "<group>"; };
+		22F89DFA112FC63F00717FFE /* CHANGELOG.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.txt; sourceTree = "<group>"; };
+		22F89DFB112FC63F00717FFE /* CONTENTS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CONTENTS.txt; sourceTree = "<group>"; };
+		22F89DFC112FC63F00717FFE /* CREDITS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CREDITS.txt; sourceTree = "<group>"; };
+		22F89DFD112FC63F00717FFE /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		22F89DFE112FC63F00717FFE /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		22F89DFF112FC63F00717FFE /* smslib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smslib.h; sourceTree = "<group>"; };
+		22F89E00112FC63F00717FFE /* smslib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = smslib.m; sourceTree = "<group>"; };
+		22F89E04112FC63F00717FFE /* smslib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smslib_Prefix.pch; sourceTree = "<group>"; };
+		22F89E0B112FC63F00717FFE /* TODO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO.txt; sourceTree = "<group>"; };
+		22F89E1D112FC79A00717FFE /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		22F89E43112FCA4C00717FFE /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		22F89E4A112FCA6200717FFE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8DD76F7E0486A8DE00D96B5E /* SmackBook */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SmackBook; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F780486A8DE00D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F89E1E112FC79A00717FFE /* CoreServices.framework in Frameworks */,
+				22F89E44112FCA4C00717FFE /* IOKit.framework in Frameworks */,
+				22F89E4B112FCA6200717FFE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* SmackBook */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E96029091FE04C91782 /* Documentation */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				19C28FBDFE9D53C911CA2CBB /* Products */,
+			);
+			name = SmackBook;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7796FE84155DC02AAC07 /* main.m */,
+				22F89DE1112FC55A00717FFE /* CGSPrivate.h */,
+				22F89DF9112FC63F00717FFE /* SMSLib */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				22F89E1D112FC79A00717FFE /* CoreServices.framework */,
+				22F89E43112FCA4C00717FFE /* IOKit.framework */,
+				22F89E4A112FCA6200717FFE /* Cocoa.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		19C28FBDFE9D53C911CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F7E0486A8DE00D96B5E /* SmackBook */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22F89DF9112FC63F00717FFE /* SMSLib */ = {
+			isa = PBXGroup;
+			children = (
+				22F89DFA112FC63F00717FFE /* CHANGELOG.txt */,
+				22F89DFB112FC63F00717FFE /* CONTENTS.txt */,
+				22F89DFC112FC63F00717FFE /* CREDITS.txt */,
+				22F89DFD112FC63F00717FFE /* LICENSE.txt */,
+				22F89DFE112FC63F00717FFE /* README.txt */,
+				22F89DFF112FC63F00717FFE /* smslib.h */,
+				22F89E00112FC63F00717FFE /* smslib.m */,
+				22F89E04112FC63F00717FFE /* smslib_Prefix.pch */,
+				22F89E0B112FC63F00717FFE /* TODO.txt */,
+			);
+			path = SMSLib;
+			sourceTree = "<group>";
+		};
+		C6859E96029091FE04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F740486A8DE00D96B5E /* SmackBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB924708733DCA0010E9CD /* Build configuration list for PBXNativeTarget "SmackBook" */;
+			buildPhases = (
+				8DD76F760486A8DE00D96B5E /* Sources */,
+				8DD76F780486A8DE00D96B5E /* Frameworks */,
+				8DD76F7B0486A8DE00D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmackBook;
+			productInstallPath = "$(HOME)/bin";
+			productName = SmackBook;
+			productReference = 8DD76F7E0486A8DE00D96B5E /* SmackBook */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB924B08733DCA0010E9CD /* Build configuration list for PBXProject "SmackBook" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* SmackBook */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F740486A8DE00D96B5E /* SmackBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F760486A8DE00D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F770486A8DE00D96B5E /* main.m in Sources */,
+				22F89E0C112FC63F00717FFE /* smslib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB924808733DCA0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = SmackBook;
+			};
+			name = Debug;
+		};
+		1DEB924908733DCA0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = SmackBook;
+			};
+			name = Release;
+		};
+		1DEB924C08733DCA0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB924D08733DCA0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB924708733DCA0010E9CD /* Build configuration list for PBXNativeTarget "SmackBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB924808733DCA0010E9CD /* Debug */,
+				1DEB924908733DCA0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB924B08733DCA0010E9CD /* Build configuration list for PBXProject "SmackBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB924C08733DCA0010E9CD /* Debug */,
+				1DEB924D08733DCA0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
